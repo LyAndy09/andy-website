@@ -1,38 +1,126 @@
-.App {
+*{
+  background-color: #679887;
+}
+.Wrapper {
+  background-color: #679887;
+  color: #ffffff;
+  margin: auto;
+  display: flexbox;
+  text-align: left;
+}
+
+.profile--picture{
+  height: 300px;
+  width: 300px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 50%;
+  overflow: hidden;
+  /*border-radius: 300px; */
+  box-shadow: 0px 0px 20px 20px #6ca08e;
+  position: relative;
+}
+
+.profile--name{
+  font-size: 40px;
+  text-shadow: 5px 5px #808080;
+}
+
+.profile--wrapper{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile--divider{
+  background-color: #ffffff;
+  height: 1px;
+  border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about--wrapper{
+  width: 450px;
+  margin: 0 auto;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about--title{
+  font-size: 30px;
+  text-shadow: 5px 5px #808080;
+  margin-bottom: -15px;
 }
 
-.App-link {
-  color: #61dafb;
+.about--text{
+  font-size: 17px;
+  text-align: justify;
+  text-align-last: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.projects--wrapper{
+  width: 450px;
+  margin: 0 auto;
+}
+
+.projects--title{
+  font-size: 30px;
+  text-shadow: 5px 5px #808080;
+  margin-bottom: -25px;
+  padding-bottom: 7px
+}
+
+.projects--yelp, .projects--todo{
+  font-size: 17px;
+  text-align: justify;
+  text-align-last: center;
+}
+.a--yelp{
+  margin-top: -15px;
+}
+
+a{
+  font-weight: bold;
+  color: #174977;
+}
+
+a:hover{
+  color: #091725;
+}
+
+h4{
+  text-align: left;
+  align-content: left;
+  font-size: 19px;
+  margin-bottom: -20px;
+  padding-bottom: 10px;
+}
+
+h5{
+  text-align: left;
+  align-content: left;
+  font-size: 19px;
+  margin-bottom: -20px;
+  padding-bottom: 10px;
+}
+
+.contact--wrapper{
+  width: 450px;
+  margin: 0 auto;
+  text-align: justify;
+  padding-bottom: 15px;
+  margin-top: -15px;
+}
+
+.contact--title{
+  font-size: 30px;
+  text-shadow: 5px 5px #808080;
+  margin-bottom: -15px;
+  padding-bottom: 25px
+}
+
+.contact--GitHub{
+  text-align: left;
+  margin-right: 145px;
+}
+
+
+.contact--Email{
+margin-left: 145px;
 }
