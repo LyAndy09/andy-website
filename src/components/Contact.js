@@ -7,7 +7,7 @@ function Contact() {
             <div>
             <a className="contact--GitHub" href="https://github.com/LyAndy09/" target="_blank">GitHub</a>
             <a className="contact--LinkedIn" href="https://www.linkedin.com/in/andy-ly-9b0109176/" target="_blank">LinkedIn</a>
-            <a className="contact--Email" href = "mailto: Andy.Ly109@gmail.com" target="_blank">Email</a>
+            <a className="contact--Email" href = "mailto: contact@andyly.dev" target="_blank">Email</a>
             </div>
       </div>
     )
